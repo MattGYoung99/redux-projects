@@ -1,3 +1,9 @@
-export default state => {
-    return state;
-}
+export default (state, action) => {
+    switch (action.type) {
+      case "SET_TECHNOLOGY":
+        //do something.
+  
+      default:
+        return state;
+    }
+  };
